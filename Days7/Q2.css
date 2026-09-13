@@ -1,0 +1,42 @@
+div {
+    height: 150px;
+    width: 300px;
+    background-color: grey;
+    border: 5px black dotted;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2em;
+    padding: 1em;
+}
+
+
+
+/* h2 {
+    color: blue;
+}
+
+ul {
+    font-size: 20px;
+}
+
+li {
+    margin: 5px;
+} */
+
+
+
+```css
+h2 {
+    color: blue;
+}
+
+ul {
+    font-size: 20px;
+}
+
+li {
+    display: inline;
+    margin: 5px;
+}
+```
