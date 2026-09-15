@@ -1,0 +1,35 @@
+/* id>class>elemet selector */
+/* prioty baseed selectior */
+h1{
+    color:pink;
+}
+#greet{
+    color:yellow;
+}
+.myclass{
+    color: brown;
+}
+/* descendent selector 002 */
+div p{
+    background-color: rgb(252, 244, 244);
+
+}
+/* class selector 010*/
+
+.para{
+    background-color:blue;
+}
+/* element selector 001 */
+p{ 
+    background-color:green;
+}
+
+div.greetDiv .greet{
+    color: green;
+} 
+ .greetDiv p.greet{
+    color: blue; */
+}
+.greetDiv .greet{
+    color: red;
+} 

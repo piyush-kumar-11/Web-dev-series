@@ -1,0 +1,90 @@
+/* h1 {
+background-color: yellow;
+border : 2px solid black;
+} 
+@media(width: 400px) {
+    h1{
+        background-color: red;
+        color:white;
+    }
+    div{
+        height:100px;
+        width:100px;
+        background-color: blue;
+    }
+
+} */
+
+/* h1 {
+background-color: yellow;
+border : 2px solid black;
+} 
+@media (width: 400px) {
+    h1 {
+        background-color: red;
+        color: white;
+    }
+
+    div {
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+    }
+}
+@media (min-width: 700px) {
+    h1 {
+        background-color: greenyellow;
+    }
+}
+@media (min-width:300px){
+    h1{
+        background-color: pink;
+    }
+} */
+
+
+h1 {
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+/* 300px se 399px tak */
+@media (min-width: 300px) and (max-width: 399px) {
+    h1 {
+        background-color: pink;
+    }
+}
+
+/* Exactly 400px */
+@media (width: 400px) {
+    h1 {
+        background-color: red;
+        color: white;
+    }
+
+    div {
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+    }
+}
+
+/* 401px se 699px tak */
+@media (min-width: 401px) and (max-width: 699px) {
+    h1 {
+        background-color: pink;
+    }
+}
+
+/* 700px aur upar */
+@media (min-width: 700px) {
+    h1 {
+        background-color: greenyellow;
+    }
+}
+@media(orientation:landscape){
+    h1{
+        background-color: aqua;
+        color:brown;
+    }
+}

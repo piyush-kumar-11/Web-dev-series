@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    border:solid;
+    width: 100%;
+    text-decoration:red  dotted underline;
+    
+ 
+
+}
+h3{
+    /* text-align: right; */
+    text-align:left;
+     text-decoration:blue  double overline;
+}
+p{
+    /* text-align:justify; */
+    /* text-align:end; */
+    /* text-align:start; */
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 1px;
+
+}
+h2{
+    /* font-weight:normal; */
+    font-weight: 400;
+    text-decoration:line-through;
+}
+a{
+    text-decoration:none;
+}

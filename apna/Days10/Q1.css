@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 20px;
+  background-color: #ffffff;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  gap: 10px;
+  height: 90vh;
+}
+
+.container > * {
+  background-color: #ffc0cb;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.header {
+  grid-column: span 12;
+  grid-row: span 1;
+}
+
+.sidebar {
+  grid-column: span 3;
+  grid-row: span 10;
+}
+
+.navigation {
+  grid-column: span 6;
+  grid-row: span 1;
+}
+
+.main {
+  grid-column: span 6;
+  grid-row: span 9;
+}
+
+.ads {
+  grid-column: 10/ span 3;
+  grid-row:2/ span 10;
+}
+
+.footer {
+  grid-column: span 12;
+  grid-row: span 1;
+}
+
+.header {
+  grid-column: 1 / 13;
+  grid-row: 1 / 2;
+}
+
+.sidebar {
+  grid-column: 1 / 4;
+  grid-row: 2 / 12;
+}
+
+.navigation {
+  grid-column: 4 / 10;
+  grid-row: 2 / 3;
+}
+
+.main {
+  grid-column: 4 / 10;
+  grid-row: 3 / 12;
+}
+
+.ads {
+  grid-column: 10 / 13;
+  grid-row: 2 / 12;
+}
+
+.footer {
+  grid-column: 1 / 13;
+  grid-row: 12 / 13;
+}
+
+@media (max-width: 720px) {
+  .header {
+    grid-column: 1 / 13;
+    grid-row: 1 / 2;
+  }
+
+  /* Navigation full 12 columns lega Row 2 me */
+  .navigation {
+    grid-column: 1 / 13;
+    grid-row: 2 / 3;
+  }
+
+  /* Sidebar Row 3 se 12 tak (3 columns) */
+  .sidebar {
+    grid-column: 1 / 4;
+    grid-row: 3 / 12;
+  }
+
+  /* Main Row 3 se 12 tak (Remaining 9 columns) */
+  .main {
+    grid-column: 4 / 13;
+    grid-row: 3 / 12;
+  }
+
+  /* Ads aakhri row (Row 12) me left side par (3 columns) */
+  .ads {
+    grid-column: 1 / 4;
+    grid-row: 12 / 13;
+  }
+
+  /* Footer aakhri row (Row 12) me remaining 9 columns lega */
+  .footer {
+    grid-column: 4 / 13;
+    grid-row: 12 / 13;
+  }
+}
